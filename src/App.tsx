@@ -21,7 +21,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+    <div className="min-h-screen bg-black flex items-center justify-center">
       {tela === "welcome" && <WelcomeScreen onNavigate={navegarPara} />}
       {tela === "signup" && <CreateAccount onBack={voltar} onSuccess={aoLogarOuCadastrar} />}
       {tela === "signin" && <SignIn onBack={voltar} onSuccess={aoLogarOuCadastrar} />}

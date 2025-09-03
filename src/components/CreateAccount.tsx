@@ -29,7 +29,7 @@ export default function CreateAccount({ onBack, onSuccess }: Props) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-gray-800 p-8 rounded-xl w-full max-w-md space-y-6 animate-fade-in shadow-lg"
+      className="bg-gray-800 p-8 rounded-xl w-full max-w-md space-y-5 animate-fade-in shadow-lg"
     >
       <h2 className="text-3xl font-bold text-center text-white">Criar Conta</h2>
 

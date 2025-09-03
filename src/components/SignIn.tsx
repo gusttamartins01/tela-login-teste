@@ -27,7 +27,7 @@ export default function SignIn({ onBack, onSuccess }: Props) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-gray-800 p-8 rounded-xl w-full max-w-md space-y-6 animate-fade-in shadow-lg"
+      className="bg-gray-800 p-8 rounded-xl w-full max-w-md space-y-5 animate-fade-in shadow-lg"
     >
       <h2 className="text-3xl font-bold text-center text-white">Bem-vindo de volta!</h2>
       <p className="text-sm text-center text-gray-300 mb-4">Continue sua jornada social.</p>
